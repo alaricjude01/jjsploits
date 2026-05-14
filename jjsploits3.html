@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJSploit 2026 - World's Best Free Roblox Script Executor</title>
+    <meta name="description" content="Download JJSploit 2026 - The most powerful free Roblox script executor with Quantum Injection Engine. Level 7 execution, 50,000+ working scripts, 99.9% safety record. Completely free forever.">
+    <meta name="keywords" content="JJSploit, Roblox executor, free script executor, Blox Fruits script, Fisch script, Grow a Garden script, Roblox cheat, script hub">
+    <meta name="author" content="JJSploit Development Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JJSploit 2026 - Best Free Roblox Script Executor">
+    <meta property="og:description" content="Download JJSploit 2026 - Quantum Injection, 50,000+ scripts, 99.9% safety. Level 7 execution for all Roblox games.">
+    <meta property="og:image" content="https://jjsploit.com/images/og-image.jpg">
+    <meta property="og:url" content="https://jjsploit.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JJSploit 2026 - Free Roblox Script Executor">
+    <meta name="twitter:description" content="Download the most advanced free Roblox script executor. 50,000+ scripts, Level 7 execution.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jjsploit.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0f;
+            color: #e8edf5;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Modern Animated Gradient Background */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background: linear-gradient(135deg, #0a0a0f 0%, #12121a 30%, #1a0a2e 60%, #0a0a1f 100%);
+        }
+
+        .bg-gradient::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 50%, rgba(0, 255, 255, 0.08) 0%, transparent 50%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        .bg-gradient::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 80% 80%, rgba(255, 0, 255, 0.06) 0%, transparent 50%);
+            animation: pulseReverse 10s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+
+        @keyframes pulseReverse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.15); }
+        }
+
+        /* Floating particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            background: rgba(0, 255, 255, 0.3);
+            border-radius: 50%;
+            animation: float 15s infinite linear;
+        }
+
+        @keyframes float {
+            from { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            to { transform: translateY(-100vh) rotate(720deg); opacity: 1; }
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 40px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Glassmorphism Header */
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+            z-index: 100;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00ffff, #ff00ff, #00e5e5);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -1px;
+        }
+
+        .logo small {
+            font-size: 12px;
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 500;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-menu a {
+            color: #a0a8c0;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 15px;
+            letter-spacing: 0.3px;
+        }
+
+        .nav-menu a:hover, .nav-menu a.active {
+            color: #00ffff;
+            text-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+        }
+
+        /* Download Button */
+        .download-btn {
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            padding: 12px 32px;
+            border-radius: 50px;
+            color: #0a0a0f !important;
+            font-weight: 700 !important;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            margin-bottom: 30px;
+            color: #00ffff;
+        }
+
+        .hero h1 {
+            font-size: 72px;
+            margin-bottom: 25px;
+            background: linear-gradient(135deg, #ffffff, #00ffff, #ff00ff, #00ffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+            letter-spacing: -2px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #9ca3af;
+            line-height: 1.6;
+        }
+
+        /* CTA Buttons */
+        .cta-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 45px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            padding: 16px 40px;
+            border-radius: 60px;
+            color: #0a0a0f;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.4);
+            padding: 16px 40px;
+            border-radius: 60px;
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover, .btn-secondary:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn-primary:hover { box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3); }
+        .btn-secondary:hover { background: rgba(0, 255, 255, 0.1); }
+
+        /* Section Styles */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 48px;
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .section-header p {
+            color: #8a93aa;
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Grid Systems */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        /* Modern Cards */
+        .card {
+            background: rgba(20, 22, 36, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 28px;
+            padding: 40px;
+            transition: all 0.4s;
+            border: 1px solid rgba(0, 255, 255, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s;
+        }
+
+        .card:hover::after {
+            transform: translateX(100%);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(0, 255, 255, 0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-icon {
+            width: 65px;
+            height: 65px;
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.15), rgba(255, 0, 255, 0.15));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .card-icon i {
+            font-size: 32px;
+            color: #00ffff;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #00ffff;
+        }
+
+        .card p {
+            color: #a5b0c8;
+            line-height: 1.7;
+        }
+
+        /* Stats Section */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            margin: 60px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(0, 255, 255, 0.03);
+            border-radius: 24px;
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .stat-item:hover {
+            border-color: #00ffff;
+            background: rgba(0, 255, 255, 0.08);
+        }
+
+        .stat-number {
+            font-size: 44px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .stat-label {
+            color: #8a93aa;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        /* Content Pages */
+        .content-page {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .content-page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .page-content {
+            background: rgba(15, 17, 28, 0.8);
+            backdrop-filter: blur(12px);
+            border-radius: 32px;
+            padding: 60px;
+            margin: 40px 0;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+        }
+
+        .page-content h2 {
+            font-size: 38px;
+            margin-bottom: 25px;
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            border-left: 4px solid #00ffff;
+            padding-left: 25px;
+        }
+
+        .page-content h3 {
+            font-size: 28px;
+            margin: 40px 0 20px;
+            color: #00ffff;
+        }
+
+        .page-content h4 {
+            font-size: 22px;
+            margin: 30px 0 15px;
+            color: #ff66ff;
+        }
+
+        .page-content p {
+            margin-bottom: 20px;
+            color: #b8c0dc;
+            font-size: 16px;
+        }
+
+        .page-content ul, .page-content ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        .page-content li {
+            margin-bottom: 12px;
+            color: #b8c0dc;
+        }
+
+        /* Script Box */
+        .script-box {
+            background: #0a0a12;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 25px 0;
+            border: 1px solid #00ffff;
+            position: relative;
+        }
+
+        .script-box code {
+            font-family: 'Courier New', monospace;
+            color: #ff66ff;
+            font-size: 16px;
+            word-break: break-all;
+        }
+
+        .copy-code {
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            color: #0a0a0f;
+            padding: 12px 30px;
+            border-radius: 40px;
+            border: none;
+            cursor: pointer;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        /* Page Navigation */
+        .page-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .page-nav-btn {
+            background: rgba(20, 22, 36, 0.9);
+            color: #a5b0c8;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .page-nav-btn.active, .page-nav-btn:hover {
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            color: #0a0a0f;
+            border-color: transparent;
+        }
+
+        /* Script Tabs */
+        .script-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0 40px;
+            flex-wrap: wrap;
+        }
+
+        .script-tab {
+            background: rgba(20, 22, 36, 0.8);
+            color: #a5b0c8;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .script-tab.active, .script-tab:hover {
+            background: #00ffff;
+            color: #0a0a0f;
+        }
+
+        .script-panel {
+            display: none;
+        }
+
+        .script-panel.active {
+            display: block;
+            animation: fadeIn 0.4s ease;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.05), rgba(255, 0, 255, 0.05));
+            border-radius: 28px;
+            padding: 40px;
+            margin: 40px 0;
+            border: 1px solid rgba(0, 255, 255, 0.25);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(8, 8, 12, 0.95);
+            padding: 60px 0 30px;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+            margin-top: 80px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-col h4 {
+            color: #00ffff;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 12px;
+        }
+
+        .footer-col a {
+            color: #8a93aa;
+            text-decoration: none;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+
+        .footer-col a:hover {
+            color: #00ffff;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+            color: #5a6380;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .container { padding: 0 25px; }
+            .hero h1 { font-size: 52px; }
+            .section-header h2 { font-size: 38px; }
+            .stats-grid { grid-template-columns: repeat(3, 1fr); }
+            .page-content { padding: 35px; }
+        }
+
+        @media (max-width: 768px) {
+            .header-inner { flex-direction: column; text-align: center; }
+            .nav-menu { justify-content: center; gap: 20px; }
+            .hero h1 { font-size: 38px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .hero { padding: 60px 0; }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .page-content { padding: 25px; }
+            .cta-group { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+<div class="bg-gradient"></div>
+<div class="particles" id="particles"></div>
+
+<header>
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo">⚡ JJSPLOIT <small>2026 CYBER EDITION</small></div>
+            <ul class="nav-menu">
+                <li><a href="#" onclick="showPage('home')" class="nav-link active" data-page="home">🏠 HOME</a></li>
+                <li><a href="#" onclick="showPage('download')" class="nav-link" data-page="download">📥 DOWNLOAD</a></li>
+                <li><a href="#" onclick="showPage('scripts')" class="nav-link" data-page="scripts">📜 SCRIPTS</a></li>
+                <li><a href="#" onclick="showPage('features')" class="nav-link" data-page="features">⚡ FEATURES</a></li>
+                <li><a href="#" onclick="showPage('about')" class="nav-link" data-page="about">ℹ️ ABOUT</a></li>
+                <li><a href="#" onclick="showPage('contact')" class="nav-link" data-page="contact">💬 CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- HOME PAGE -->
+<div class="content-page active" id="home-page">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">⚡ WORLD'S #1 FREE SCRIPT EXECUTOR</div>
+            <h1>JJSploit 2026<br>Quantum Execution Engine</h1>
+            <p>The most powerful, secure, and completely free Roblox script executor. Level 7 execution speed, 50,000+ verified scripts, and military-grade protection for your account.</p>
+            <div class="cta-group">
+                <a href="#" onclick="showPage('download')" class="btn-primary"><i class="fas fa-download"></i> Download Free</a>
+                <a href="#" onclick="showPage('scripts')" class="btn-secondary"><i class="fas fa-code"></i> Browse Scripts</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item"><div class="stat-number">4.2M+</div><div class="stat-label">Downloads</div></div>
+            <div class="stat-item"><div class="stat-number">50K+</div><div class="stat-label">Working Scripts</div></div>
+            <div class="stat-item"><div class="stat-number">350K</div><div class="stat-label">Daily Active Users</div></div>
+            <div class="stat-item"><div class="stat-number">99.9%</div><div class="stat-label">Safety Record</div></div>
+            <div class="stat-item"><div class="stat-number">195+</div><div class="stat-label">Countries</div></div>
+        </div>
+
+        <div class="section-header">
+            <h2>Why Choose JJSploit?</h2>
+            <p>Trusted by millions of users worldwide — the complete scripting solution for Roblox</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Quantum Injection v4.0</h3>
+                <p>Our revolutionary injection engine executes scripts in under 30 milliseconds — 200% faster than any free competitor. The proprietary memory management system ensures zero lag even with the most complex multi-threaded scripts running simultaneously. Benchmarks prove JJSploit outperforms paid executors costing $20+ monthly, delivering enterprise-grade performance completely free. The Quantum Engine uses advanced memory optimization techniques that reduce CPU overhead by 45% compared to traditional executors, meaning you can run heavy auto-farm scripts while maintaining smooth gameplay at 60+ FPS.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-shield-virus"></i></div>
+                <h3>Military-Grade Security</h3>
+                <p>Your Roblox account safety is our highest priority. JJSploit features a sophisticated multi-layered security architecture including dynamic memory obfuscation that changes patterns every 5 seconds, polymorphic code encryption that makes detection impossible, real-time anti-detection heuristics that monitor and adapt to Roblox's anti-cheat systems, and complete hardware ID spoofing protection. Our dedicated security team monitors Roblox updates 24/7 and pushes protective patches within hours of any detection pattern change — not days or weeks. Over 18 months and 10+ million execution sessions, JJSploit has maintained an unmatched 99.9% safety record with zero widespread bans.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-database"></i></div>
+                <h3>Massive Script Library</h3>
+                <p>Access over 50,000 community-verified scripts across 500+ Roblox games instantly through the JJSploit Script Hub. Our curated library is organized by game, feature type, popularity, and update date — making it incredibly easy to find exactly what you need. Every script undergoes automated security scanning for malicious code, plus manual review by our curation team before being added to the hub. New scripts are added daily, existing scripts are updated within 24 hours of game patches, and broken scripts are removed immediately. This is the largest and most reliable free script library in existence.</p>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <h3>🚀 The Complete JJSploit Ecosystem</h3>
+            <p>JJSploit has evolved far beyond a simple script executor into a complete scripting platform that includes everything you need for an exceptional Roblox modding experience. Our Quantum Injection Engine ensures the fastest execution speeds available in any free executor — period. Independent benchmarks show JJSploit executing complex scripts 47% faster than Krnl, 62% faster than Synapse X (which costs $20), and 89% faster than free alternatives like Fluxus.</p>
+            <p>The built-in Script Hub gives you instant one-click access to over 50,000 community-verified scripts, organized by game, category, and popularity. Every script is pre-scanned for malicious code using our proprietary ScriptGuard technology and updated regularly to maintain compatibility with the latest game patches. We reject over 5,000 malicious or broken script submissions monthly to protect our users.</p>
+            <p>Our community has grown to over 200,000 active members across Discord and other platforms, making it one of the largest and most helpful scripting communities in the world. Whether you're a complete beginner installing your first script or an experienced developer creating complex GUI-based auto-farm systems, you'll find a welcoming community ready to help you succeed.</p>
+            <p>Best of all, JJSploit remains 100% free forever — we have never charged for our executor and we never will. No premium tiers, no feature paywalls, no hidden fees, no credit card required. Just powerful, reliable script execution for every Roblox player.</p>
+        </div>
+
+        <div class="section-header">
+            <h2>Supported Games</h2>
+            <p>JJSploit works flawlessly with every Roblox game — here are the most popular titles</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-apple-alt"></i></div>
+                <h3>🍎 Blox Fruits — Complete Automation Suite</h3>
+                <p>The most comprehensive Blox Fruits script collection available anywhere on the internet. Our scripts cover all three seas with advanced features including: fully automated farming of enemies and bosses across every island (First Sea: Jungle, Pirate Village, Sky Islands; Second Sea: Green Zone, Graveyard, Hot and Cold; Third Sea: Great Tree, Castle on the Sea, Port Town), auto-raid system supporting all fruit types including Dough, Phoenix, Dragon, and Leopard, auto-awakening that completes all awakening requirements automatically without any manual input, real-time fruit finder with ESP and auto-collect that teleports you to any fruit spawn location, complete chest ESP showing exact locations of all chests, comprehensive teleportation hub to any NPC, boss, or island, auto-observation haki training that maximizes your Kenbunshoku Haki while AFK, auto-bounty hunting system for both Marine and Pirate factions, auto-factory farming for the Factory raid, and auto-quest completion that automatically accepts, completes, and turns in any quest. All scripts are updated within 12 hours of any game patch to ensure continuous functionality.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-seedling"></i></div>
+                <h3>🌱 Grow a Garden — Full Farming Suite</h3>
+                <p>Transform your gardening experience with our all-in-one Grow a Garden script package. Features include intelligent auto-water system that maintains perfect soil moisture for every plant type, instant plant growth that eliminates all waiting times (grow any plant from seed to harvest in seconds), unlimited seeds generator for every plant type including rare and legendary seeds, auto-harvest with batch harvesting capabilities that collects all ready plants instantly, advanced auto-trade bot that analyzes market prices and executes profitable trades automatically, complete auto-quest completion that handles every quest in the game, plant ESP showing type, growth stage, and rarity of every plant on screen, auto-collection from friends' gardens to maximize your rewards, and auto-upgrade systems that automatically upgrade your tools, plots, and garden features as soon as you have enough resources. This is the most complete Grow a Garden automation tool ever created.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-fish"></i></div>
+                <h3>🐟 Fisch — NO KEY Required Legendary Script</h3>
+                <p>Our Fisch script has become legendary in the fishing community — and it requires absolutely NO KEY or verification, ever. Features include fully automated fishing system that works perfectly AFK (cast, wait, catch, repeat forever), instant catch technology that completely bypasses the fishing mini-game (catch any fish immediately after casting), legendary fish finder with ESP that shows exact locations of all legendary and mythical fish, auto-sell system that automatically sells your entire inventory at the best prices, unlimited bait generator so you never run out of bait, complete auto-quest completion that handles all fishing quests automatically, fish ESP showing species, rarity, size, and value of every fish in the water, auto-collection of rare catches, and teleportation to the best fishing spots for every fish type. Thousands of users catch millions of fish daily using this script — and again, absolutely NO KEY required!</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                <h3>🏆 Roblox Rivals — Competitive Edge Suite</h3>
+                <p>Dominate every match with our advanced Roblox Rivals script suite. Features include fully customizable aimbot with adjustable FOV (field of view) from 0 to 360 degrees, configurable smoothing for natural-looking aim, priority system (closest, lowest health, highest threat), ESP wallhack showing player names, health, distance, weapons, and items through walls, silent aim that hits targets without visible aim lock (completely undetectable), triggerbot that automatically fires when your crosshair is on an enemy, bunny hop for perfect jumping movement, adjustable speed hack from 1x to 3x normal speed, auto-ability usage that activates abilities at optimal times, recoil control system that eliminates weapon recoil, no spread making every shot perfectly accurate, auto-heal that uses healing items when health drops below threshold, item ESP showing locations of weapons, ammo, armor, and health packs, and customizable configuration saving so your settings persist between sessions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DOWNLOAD PAGE -->
+<div class="content-page" id="download-page">
+    <section class="hero">
+        <div class="container">
+            <h1>Download JJSploit 2026</h1>
+            <p>Latest version featuring Quantum Injection v4.0, enhanced security, and full Roblox compatibility</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="page-nav">
+            <button onclick="showPage('home')" class="page-nav-btn">🏠 HOME</button>
+            <button onclick="showPage('download')" class="page-nav-btn active">📥 DOWNLOAD</button>
+            <button onclick="showPage('scripts')" class="page-nav-btn">📜 SCRIPTS</button>
+            <button onclick="showPage('features')" class="page-nav-btn">⚡ FEATURES</button>
+            <button onclick="showPage('about')" class="page-nav-btn">ℹ️ ABOUT</button>
+            <button onclick="showPage('contact')" class="page-nav-btn">💬 CONTACT</button>
+        </div>
+
+        <div class="page-content">
+            <h2>JJSploit 2026 — Complete Installation Guide</h2>
+            <p>Welcome to the official JJSploit download page. Version 2026 represents our most significant release in five years, featuring a complete rewrite of our core injection engine, enhanced security protocols, a completely redesigned modern user interface, expanded script compatibility across all Roblox games, and performance optimizations that reduce resource usage by 40% compared to previous versions.</p>
+
+            <div class="highlight-box">
+                <h3>📦 Technical Specifications</h3>
+                <ul>
+                    <li><strong>Version:</strong> 2026.4 (Latest Stable Release — April 2026)</li>
+                    <li><strong>Installer Size:</strong> 52 MB (compressed) / 185 MB (installed)</li>
+                    <li><strong>Operating Systems:</strong> Windows 10 (version 1809 or later, 64-bit), Windows 11 (full native support including ARM64)</li>
+                    <li><strong>Executor Level:</strong> Level 7 — Supports all Lua scripts, GUI-based scripts, advanced library imports, and custom DLLs</li>
+                    <li><strong>Injection Engine:</strong> Quantum Injection v4.0 — Average injection time under 25ms, 99.97% success rate</li>
+                    <li><strong>Key System:</strong> Free Linkvertise integration — complete one short verification every 24 hours (takes under 30 seconds, no personal data required)</li>
+                </ul>
+            </div>
+
+            <h3>System Requirements — Detailed Specifications</h3>
+            <ul>
+                <li><strong>Operating System:</strong> Windows 10 version 1809 or newer (64-bit strongly recommended). Windows 11 fully supported including ARM64 through emulation. Windows 7/8 not supported.</li>
+                <li><strong>Processor:</strong> 1.8 GHz dual-core or faster. Any Intel Core i3/i5/i7/i9 from the last 12 years works perfectly. AMD Ryzen series fully supported.</li>
+                <li><strong>Memory (RAM):</strong> 2GB minimum required, 4GB recommended for complex multi-script execution. JJSploit itself uses approximately 150MB of RAM during operation.</li>
+                <li><strong>Storage Space:</strong> 300MB free space minimum, 600MB recommended for script cache and logs.</li>
+                <li><strong>Graphics:</strong> Any DirectX 11 compatible GPU. Integrated graphics work fine — no dedicated GPU required.</li>
+                <li><strong>Internet Connection:</strong> 5 Mbps connection recommended for script downloading and updates.</li>
+                <li><strong>Additional Requirements:</strong> Visual C++ Redistributable 2015-2022 (included in installer if missing), .NET Framework 4.8 or newer.</li>
+            </ul>
+
+            <h3>Step-by-Step Installation Instructions</h3>
+            <h4>Step 1 — Download the Installer</h4>
+            <p>Click the download button below to retrieve JJSploit_Setup_2026.exe (52 MB). Always ensure you're downloading from our official website — never from third-party sources. The installer is digitally signed by "JJSploit Development Team" with a valid Extended Validation (EV) certificate. Verify the digital signature before running the installer for maximum security.</p>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <button onclick="alert('Download started! This is a demo. In production, this would download the actual installer.')" class="btn-primary" style="font-size: 20px; padding: 18px 50px;"><i class="fas fa-download"></i> Download JJSploit 2026 (52 MB)</button>
+                <p style="margin-top: 15px; font-size: 14px; color: #8a93aa;">✅ 100% Safe • ✅ Virus Scanned • ✅ Digital Signature Verified</p>
+            </div>
+
+            <h4>Step 2 — Prepare Your System</h4>
+            <p>Temporarily disable Windows Defender Real-time Protection and any third-party antivirus software during installation only. JJSploit uses legitimate code injection techniques that may be flagged as false positives by aggressive antivirus software. After installation, add the JJSploit installation folder to your antivirus exclusion list and re-enable protection. We provide detailed instructions for every major antivirus solution (Windows Defender, McAfee, Norton, Kaspersky, Bitdefender, AVG, Avast) in our setup guide.</p>
+
+            <h4>Step 3 — Run as Administrator</h4>
+            <p>Right-click the downloaded installer file and select "Run as Administrator". If you receive a Windows SmartScreen warning, click "More info" and then "Run anyway". SmartScreen may incorrectly flag JJSploit because it's not a commonly downloaded application — we are working with Microsoft to resolve this false positive.</p>
+
+            <h4>Step 4 — Complete Installation Wizard</h4>
+            <p>Follow these exact steps: Accept the End User License Agreement after reading it carefully, select installation directory (C:\Program Files\JJSploit recommended), choose whether to create desktop and start menu shortcuts, click "Install". The installation process takes 30-90 seconds depending on your system speed.</p>
+
+            <h4>Step 5 — Get Your Free Key</h4>
+            <p>Launch JJSploit from your desktop or start menu. Click "Get Free Key" button, complete the Linkvertise verification (takes approximately 30 seconds, no credit card or personal information required), copy your unique 16-character key from the Linkvertise page, paste it into JJSploit's activation window, and click "Activate". Your key is valid for 24 hours from activation. After 24 hours, simply repeat this process to get a new free key — this system helps us prevent abuse and keeps JJSploit completely free for legitimate users.</p>
+
+            <h3>Frequently Asked Questions — Installation Issues</h3>
+            <ul>
+                <li><strong>Q: Windows protected my PC from running the installer?</strong> A: Click "More info" then "Run anyway". SmartScreen may show this warning because JJSploit is not yet widely downloaded. The file is completely safe — we recommend verifying the digital signature if you have concerns.</li>
+                <li><strong>Q: Antivirus deleted the installer file immediately?</strong> A: Temporarily disable your antivirus, download again, install JJSploit, add the installation folder to antivirus exclusions, then re-enable your antivirus. This is a one-time process.</li>
+                <li><strong>Q: I'm getting missing DLL errors when launching?</strong> A: You need to install Microsoft Visual C++ Redistributable 2015-2022. Download it free from Microsoft's official website, install, restart your computer, and JJSploit will work perfectly.</li>
+                <li><strong>Q: Injection fails or JJSploit can't find Roblox?</strong> A: Always run JJSploit as Administrator. Launch JJSploit BEFORE launching Roblox, not after. Make sure Roblox is fully updated to the latest version.</li>
+                <li><strong>Q: The key isn't working or says invalid?</strong> A: Keys expire after 24 hours. Generate a fresh key from the link. Make sure you copy the entire key without any extra spaces. Paste directly — don't type manually.</li>
+                <li><strong>Q: JJSploit crashes when I try to execute a script?</strong> A: The script you're trying may be outdated or contain errors. Try a different script from our Script Hub. Update JJSploit to the latest version.</li>
+            </ul>
+
+            <h3>Post-Installation — First Time Setup</h3>
+            <p>After successfully installing and activating JJSploit, we recommend configuring these settings for the best experience: Open Settings (gear icon in top-right), set Auto-Attach to ON so JJSploit automatically connects to Roblox when it launches, set Script Hub Auto-Update to ON for automatic script library updates, choose your preferred theme (Dark, Cyber, or Neon), configure hotkeys for quick script execution, and enable Auto-Save to save your executed scripts history. For maximum performance, close unnecessary background applications before running heavy scripts.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPTS PAGE -->
+<div class="content-page" id="scripts-page">
+    <section class="hero">
+        <div class="container">
+            <h1>JJSploit Scripts Hub</h1>
+            <p>50,000+ working scripts — organized by game, updated daily, completely free</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="page-nav">
+            <button onclick="showPage('home')" class="page-nav-btn">🏠 HOME</button>
+            <button onclick="showPage('download')" class="page-nav-btn">📥 DOWNLOAD</button>
+            <button onclick="showPage('scripts')" class="page-nav-btn active">📜 SCRIPTS</button>
+            <button onclick="showPage('features')" class="page-nav-btn">⚡ FEATURES</button>
+            <button onclick="showPage('about')" class="page-nav-btn">ℹ️ ABOUT</button>
+            <button onclick="showPage('contact')" class="page-nav-btn">💬 CONTACT</button>
+        </div>
+
+        <div class="script-tabs">
+            <button onclick="showScript('bloxfruits')" class="script-tab active" id="tab-bloxfruits">🍎 Blox Fruits</button>
+            <button onclick="showScript('growgarden')" class="script-tab" id="tab-growgarden">🌱 Grow a Garden</button>
+            <button onclick="showScript('fisch')" class="script-tab" id="tab-fisch">🐟 Fisch (NO KEY)</button>
+            <button onclick="showScript('rivals')" class="script-tab" id="tab-rivals">🏆 Roblox Rivals</button>
+            <button onclick="showScript('pet')" class="script-tab" id="tab-pet">🐾 Pet Simulator 99</button>
+            <button onclick="showScript('doors')" class="script-tab" id="tab-doors">🚪 Doors</button>
+        </div>
+
+        <!-- Blox Fruits Script -->
+        <div class="script-panel active" id="bloxfruits-panel">
+            <div class="page-content">
+                <h2>🍎 Ultimate Blox Fruits Script — Three Sea Complete Support</h2>
+                <p>This is the most advanced and frequently updated Blox Fruits script available anywhere. Used by over 500,000 players daily, our script covers every feature across all three seas (First Sea, Second Sea, and Third Sea). All features are fully configurable through an easy-to-use GUI interface that appears when you execute the script. The script automatically updates itself when new game content is released — no need to re-copy or re-download.</p>
+                
+                <div class="highlight-box">
+                    <h3>📋 Blox Fruits Script Code — Copy & Execute</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/BloxFruits/main/script.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/BloxFruits/main/script.lua\"))()')">📋 Copy Script to Clipboard</button>
+                    
+                    <h4 style="margin-top: 30px;">Complete Feature List — 100+ Features</h4>
+                    <ul>
+                        <li><strong>🌊 First Sea Features:</strong> Auto-farm Jungle, Pirate Village, Desert, Sky Islands, Frozen Village, Volcano, Underwater City. Auto-quest for every NPC. Teleport to any location.</li>
+                        <li><strong>🌊 Second Sea Features:</strong> Auto-farm Green Zone, Graveyard, Snow Mountain, Hot and Cold, Forgotten Island, Rose Kingdom. Auto-raid for all fruits. Auto-awakening complete system.</li>
+                        <li><strong>🌊 Third Sea Features:</strong> Auto-farm Great Tree, Castle on the Sea, Hydra Island, Floating Turtle, Port Town, Mansion, Candy Land. Auto-Elite Hunter quests. Auto-Race v4 awakening.</li>
+                        <li><strong>🍎 Fruit Features:</strong> Fruit ESP showing exact location of all fruits on map. Auto-collect fruits instantly. Fruit gacha auto-roll. Fruit notifier alerts. Store fruits in warehouse.</li>
+                        <li><strong>⚔️ Combat Features:</strong> Auto-bounty hunting (both factions). Auto-Kill all bosses including Dough King, Darkbeard, Rip_indra, Cake Prince, Soul Reaper. Auto-factory raid.</li>
+                        <li><strong>🔧 Utility Features:</strong> Auto-observation Haki training. Auto-Fighting Style mastery. Auto-Sword mastery. Auto-Gun mastery. Auto-Devil Fruit mastery. Auto-stat distribution.</li>
+                        <li><strong>🗺️ Teleportation Hub:</strong> One-click teleport to any island, any NPC, any boss, any fruit spawn location, any chest location, any raid location.</li>
+                    </ul>
+                </div>
+
+                <h3>How to Use This Script</h3>
+                <p>1. Launch Roblox and join a Blox Fruits server.<br>2. Launch JJSploit and ensure it's attached to Roblox.<br>3. Click the copy button above to copy the script to your clipboard.<br>4. Paste the script into JJSploit's executor window (Ctrl+V).<br>5. Click Execute or press the Execute button.<br>6. A GUI will appear on your screen — navigate through tabs to enable features.<br>7. Configure settings to your preference — all settings auto-save between sessions.<br>8. Enjoy automated farming while you AFK or play normally!</p>
+                
+                <h3>Script Update Frequency</h3>
+                <p>This script updates automatically when you execute it — no manual updating needed. However, if you want the absolute latest version (including hotfixes), re-copy from this page and execute again. Our script is typically updated within 2-4 hours of any Blox Fruits game update. We track the official Blox Fruits Discord for update announcements and push fixes immediately.</p>
+            </div>
+        </div>
+
+        <!-- Grow a Garden Script -->
+        <div class="script-panel" id="growgarden-panel">
+            <div class="page-content">
+                <h2>🌱 Complete Grow a Garden Script — Full Automation Suite</h2>
+                <p>Transform your gardening experience with our comprehensive Grow a Garden script. This script automates every aspect of the popular gardening simulator, allowing you to progress faster than ever before. The script features an intuitive GUI with toggles for every feature, progress tracking, and real-time status updates.</p>
+                
+                <div class="highlight-box">
+                    <h3>📋 Grow a Garden Script Code</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/GrowGarden/main/garden.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/GrowGarden/main/garden.lua\"))()')">📋 Copy Script to Clipboard</button>
+                    
+                    <h4 style="margin-top: 30px;">Complete Feature List</h4>
+                    <ul>
+                        <li><strong>🌿 Garden Automation:</strong> Auto-water all plants (maintains perfect moisture). Instant plant growth (skip all waiting times). Auto-harvest ready plants instantly. Plant ESP showing type, growth stage, and rarity.</li>
+                        <li><strong>🌱 Seed Features:</strong> Unlimited seeds generator for all plant types (common, rare, epic, legendary, mythical). Auto-plant after harvest. Seed combination helper for rare seeds.</li>
+                        <li><strong>💰 Economy Features:</strong> Auto-sell produce at best prices. Auto-trade bot that analyzes market prices. Auto-complete quests for rewards. Auto-upgrade tools, plots, and garden features.</li>
+                        <li><strong>👥 Social Features:</strong> Auto-visit friends' gardens. Auto-water friends' plants. Auto-collect from friends' gardens. Friendship point farmer.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fisch Script - NO KEY -->
+        <div class="script-panel" id="fisch-panel">
+            <div class="page-content">
+                <h2>🐟 FREE FISCH SCRIPT — NO KEY REQUIRED!</h2>
+                <p>This is the legendary Fisch script that thousands of users have been waiting for. Unlike almost every other executor that requires link shorteners, surveys, or verification, our Fisch script is completely free with NO key system, NO Linkvertise, NO surveys, NO human verification — simply copy, paste, and execute! This script is updated weekly and works with the latest version of Fisch.</p>
+                
+                <div class="highlight-box" style="border-color: #ff00ff;">
+                    <h3>🎣 FREE FISCH SCRIPT — NO KEY! NO VERIFICATION!</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/Fisch/main/free_fisch.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/Fisch/main/free_fisch.lua\"))()')">📋 Copy FREE Script to Clipboard</button>
+                    
+                    <h4 style="margin-top: 30px;">🎣 Complete Fishing Features — 100% FREE</h4>
+                    <ul>
+                        <li><strong>Auto-Fish System:</strong> Fully automated fishing that works AFK — casts line automatically, waits for bite, catches fish, and repeats forever without any input from you.</li>
+                        <li><strong>Instant Catch:</strong> Completely bypasses the fishing mini-game — catch any fish immediately after casting, regardless of fish rarity or difficulty.</li>
+                        <li><strong>Legendary Fish Finder:</strong> ESP system shows exact locations of all legendary, mythical, and secret fish within 500 stud radius.</li>
+                        <li><strong>Auto-Sell:</strong> Automatically sells your entire fishing inventory at the best possible prices with one click.</li>
+                        <li><strong>Unlimited Bait:</strong> Never run out of bait — this feature gives you unlimited worms, lures, and specialty bait items.</li>
+                        <li><strong>Fish ESP:</strong> Shows species, rarity, size, weight, and monetary value of every fish in the water around you.</li>
+                        <li><strong>Auto-Quest:</strong> Automatically accepts, completes, and turns in all fishing quests for maximum rewards.</li>
+                        <li><strong>Teleport to Hotspots:</strong> Instantly teleport to the best fishing spots for any specific fish species you want to catch.</li>
+                    </ul>
+                    <p><strong>🔥 Note:</strong> This script requires absolutely NO key, NO verification, NO survey, NO link shortener, and NO human verification. It is completely 100% free. If anyone tries to charge you for this script or asks you to complete surveys, they are scamming you. Report them immediately.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roblox Rivals Script -->
+        <div class="script-panel" id="rivals-panel">
+            <div class="page-content">
+                <h2>🏆 Roblox Rivals Advanced Script — Aimbot + ESP + More</h2>
+                <p>Get the ultimate competitive advantage in Roblox Rivals with our comprehensive script. Features include a fully customizable aimbot, ESP wallhack, and numerous other combat enhancements. The script includes an easy-to-use configuration GUI where you can adjust every setting to your preference.</p>
+                
+                <div class="highlight-box">
+                    <h3>📋 Roblox Rivals Script Code</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/Rivals/main/aimbot.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/Rivals/main/aimbot.lua\"))()')">📋 Copy Script to Clipboard</button>
+                    
+                    <h4 style="margin-top: 30px;">Complete Feature List</h4>
+                    <ul>
+                        <li><strong>🎯 Aimbot:</strong> Configurable FOV (0-360°), adjustable smoothing (1-100%), priority system (closest, lowest health, highest threat), silent aim mode, visible check, team check.</li>
+                        <li><strong>👁️ ESP (Wallhack):</strong> Player ESP (name, health, distance, weapon), item ESP (weapons, ammo, armor, health packs), box ESP (2D/3D boxes), skeleton ESP, tracer lines, health bars.</li>
+                        <li><strong>⚡ Combat Enhancements:</strong> Triggerbot (auto-fire when aiming at enemy), bunny hop (perfect jumping), speed hack (adjustable 1-3x), no spread (perfect accuracy), recoil control, auto-ability usage.</li>
+                        <li><strong>🛡️ Defensive Features:</strong> Auto-heal at configurable health threshold, auto-cover detection, damage indicators, enemy count tracker.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pet Simulator 99 Script -->
+        <div class="script-panel" id="pet-panel">
+            <div class="page-content">
+                <h2>🐾 Pet Simulator 99 — Complete Auto-Farm Script</h2>
+                <p>Dominate Pet Simulator 99 with our comprehensive automation script. This script handles everything from auto-farming to auto-hatching, making progression effortless.</p>
+                
+                <div class="highlight-box">
+                    <h3>📋 Pet Simulator 99 Script Code</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/PetSim99/main/petsim.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/PetSim99/main/petsim.lua\"))()')">📋 Copy Script to Clipboard</button>
+                    <p><strong>Features:</strong> Auto-farm coins, Auto-open eggs, Auto-hatch pets, Auto-merge pets, Auto-complete quests, Auto-claim rewards, Auto-rank up, Auto-trade, Auto-boost, Auto-chest collector, Auto-zone unlocker, Coin ESP, Pet ESP, Chest ESP.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doors Script -->
+        <div class="script-panel" id="doors-panel">
+            <div class="page-content">
+                <h2>🚪 Doors — God Mode & Auto-Win Script</h2>
+                <p>Beat every floor of Doors effortlessly with our feature-packed script. Never die, see through walls, and teleport past difficult sections.</p>
+                
+                <div class="highlight-box">
+                    <h3>📋 Doors Script Code</h3>
+                    <div class="script-box">
+                        <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/JJSploit/Doors/main/godmode.lua"))()</code>
+                    </div>
+                    <button class="copy-code" onclick="copyScript('loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JJSploit/Doors/main/godmode.lua\"))()')">📋 Copy Script to Clipboard</button>
+                    <p><strong>Features:</strong> God Mode (invincible), Infinite Health, Entity ESP (see all entities through walls), Auto-Complete Rooms, Teleport to Door, Instant Interaction, No Cooldowns, Unlock All Doors, Bypass Entity Attacks, Auto-Heal, Speed Boost, Jump Boost, Item ESP, Key ESP, Gold ESP.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FEATURES PAGE -->
+<div class="content-page" id="features-page">
+    <section class="hero">
+        <div class="container">
+            <h1>JJSploit Features</h1>
+            <p>Discover what makes JJSploit the world's most advanced free Roblox script executor</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="page-nav">
+            <button onclick="showPage('home')" class="page-nav-btn">🏠 HOME</button>
+            <button onclick="showPage('download')" class="page-nav-btn">📥 DOWNLOAD</button>
+            <button onclick="showPage('scripts')" class="page-nav-btn">📜 SCRIPTS</button>
+            <button onclick="showPage('features')" class="page-nav-btn active">⚡ FEATURES</button>
+            <button onclick="showPage('about')" class="page-nav-btn">ℹ️ ABOUT</button>
+            <button onclick="showPage('contact')" class="page-nav-btn">💬 CONTACT</button>
+        </div>
+
+        <div class="page-content">
+            <h2>Complete Feature Breakdown</h2>
+            <p>JJSploit 2026 includes over 100+ features designed to give you the ultimate scripting experience. Here's a detailed breakdown of everything JJSploit offers — completely free.</p>
+
+            <h3>🚀 Quantum Injection Engine v4.0</h3>
+            <p>Our flagship technology — the Quantum Injection Engine represents a complete reimagining of how script executors interact with Roblox. Version 4.0 includes: sub-25ms average injection time (measured across 10,000+ test runs), 99.97% injection success rate, zero false positive rate when correctly configured, reduced CPU overhead by 45% compared to v3.0, support for 50+ concurrent script executions, native 64-bit architecture, and automatic memory optimization that prevents leaks even during extended 12+ hour gaming sessions. Independent benchmarks show Quantum v4.0 executing complex scripts 47% faster than Krnl, 62% faster than Synapse X, and 89% faster than free alternatives like Fluxus and Vega X.</p>
+
+            <h3>🛡️ Multi-Layer Security Architecture</h3>
+            <p>JJSploit's security system is the most sophisticated in any free executor. Features include: Dynamic memory obfuscation that changes memory patterns every 5 seconds, polymorphic code encryption making signature-based detection impossible, real-time anti-detection heuristics that monitor and adapt to Roblox's anti-cheat systems, complete hardware ID spoofing that prevents hardware bans, automatic process hiding to avoid detection, and network traffic encryption that hides all injection-related communication. Our dedicated security team monitors Roblox updates 24/7 and typically pushes protective patches within 2-4 hours of any detection pattern change — not days or weeks. Safety record: 99.9% across 10+ million execution sessions with zero widespread ban waves.</p>
+
+            <h3>📚 Script Hub — 50,000+ Scripts</h3>
+            <p>The JJSploit Script Hub is the largest curated script library in the Roblox modding community. Features include: 50,000+ working scripts across 500+ Roblox games, organized by game, category, popularity, and update date, one-click script execution directly from the hub, automatic script updates when games patch, ScriptGuard security scanning for every script (automated + manual review), script rating system with user feedback, favorite scripts for quick access, script search functionality, and script categories including Auto-Farm, Aimbot, ESP, Teleport, GUI Scripts, Obby Helpers, and more. New scripts are added daily — we typically add 200-500 new scripts per week.</p>
+
+            <h3>🎮 Universal Game Compatibility</h3>
+            <p>JJSploit works flawlessly with every Roblox game — period. From major titles like Blox Fruits, Pet Simulator 99, Doors, Fisch, and Brookhaven, to obscure indie games with 100 active players. If you can run a script for it, JJSploit will execute it. Our compatibility list includes over 10,000 verified games, and we provide dedicated script collections for the top 100 most-played Roblox games.</p>
+
+            <h3>💻 Modern User Interface</h3>
+            <p>JJSploit 2026 features a completely redesigned user interface with: Dark/Cyber/Neon theme options, resizable and movable windows, tabs for Organizer, Script Hub, Console, and Settings, script editor with syntax highlighting, auto-save for executed scripts, execution history log, hotkey configuration, and multi-language support (English, Spanish, Portuguese, French, German, Russian, Turkish, Arabic, Chinese, Japanese, Korean). The UI is designed for both beginners and advanced users — simple enough for first-time scripters, powerful enough for developers.</p>
+
+            <h3>⚡ Performance Optimizations</h3>
+            <p>JJSploit is engineered for maximum performance: RAM usage averages 150MB (significantly lower than competitors), CPU usage typically under 5% when idle, minimal FPS impact (typically 1-3 FPS drop even with heavy scripts running), injection in under 25ms, support for 50+ concurrent scripts, 64-bit architecture for modern systems, and automatic memory cleanup that prevents RAM leaks during extended sessions.</p>
+
+            <h3>🔧 Script Debugging Tools</h3>
+            <p>For advanced users and script developers: Built-in console for viewing script output and errors, script debugger with breakpoints and variable inspection, real-time script profiler showing execution time and resource usage, error highlighting and stack traces, custom function injection, and API documentation. These tools make JJSploit the preferred executor for script developers.</p>
+
+            <h3>🆓 Completely Free — Forever</h3>
+            <p>Unlike virtually every other Roblox executor on the market, JJSploit has no premium tier, no feature paywalls, no hidden costs, and no credit card required. Our key system (required to prevent abuse) takes under 30 seconds to complete and costs you absolutely nothing — just one Linkvertise verification every 24 hours. We have never charged for JJSploit and we never will. Our mission is to provide professional-grade script execution to everyone, regardless of their ability to pay.</p>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT PAGE -->
+<div class="content-page" id="about-page">
+    <section class="hero">
+        <div class="container">
+            <h1>About JJSploit</h1>
+            <p>The story behind the world's most trusted free Roblox script executor</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="page-nav">
+            <button onclick="showPage('home')" class="page-nav-btn">🏠 HOME</button>
+            <button onclick="showPage('download')" class="page-nav-btn">📥 DOWNLOAD</button>
+            <button onclick="showPage('scripts')" class="page-nav-btn">📜 SCRIPTS</button>
+            <button onclick="showPage('features')" class="page-nav-btn">⚡ FEATURES</button>
+            <button onclick="showPage('about')" class="page-nav-btn active">ℹ️ ABOUT</button>
+            <button onclick="showPage('contact')" class="page-nav-btn">💬 CONTACT</button>
+        </div>
+
+        <div class="page-content">
+            <h2>Our Mission: Free Scripting For Everyone</h2>
+            <p>JJSploit was founded in early 2020 with a simple but powerful mission: create a professional-grade Roblox script executor that is completely free, accessible to everyone, and never hides essential features behind expensive paywalls. Five years and over 4 million downloads later, we've not only achieved that mission — we've exceeded it beyond our wildest expectations.</p>
+
+            <div class="highlight-box">
+                <h3>🎯 Our Core Values</h3>
+                <ul>
+                    <li><strong>Free Forever:</strong> JJSploit will never charge for core functionality. No premium tiers, no feature paywalls, no hidden fees, no credit card required.</li>
+                    <li><strong>Safety First:</strong> Continuous security updates and a 99.9% safety record across millions of sessions. Your account safety is our highest priority.</li>
+                    <li><strong>Community Driven:</strong> Over 200,000 community members across Discord and other platforms shape our development roadmap. We listen to user feedback and prioritize features our community wants.</li>
+                    <li><strong>Rapid Updates:</strong> We push security patches within 24 hours of any Roblox update. Our average update time is 4-6 hours for critical patches.</li>
+                    <li><strong>Education:</strong> Comprehensive documentation, tutorials, and guides for learning Lua scripting. We believe in empowering our users to create their own scripts.</li>
+                    <li><strong>Transparency:</strong> We're open about our security practices, update frequency, and success rates. No hidden agendas, no data selling, no shady practices.</li>
+                </ul>
+            </div>
+
+            <h3>Our Journey — Complete Timeline</h3>
+            <ul>
+                <li><strong>January 2020:</strong> JJSploit v1.0 launches publicly — initial 1,000 users in first month</li>
+                <li><strong>June 2020:</strong> 50,000 downloads milestone — First major UI update</li>
+                <li><strong>December 2020:</strong> v2.0 released with major performance improvements — 250,000 downloads</li>
+                <li><strong>June 2021:</strong> Script Hub launched with 5,000 scripts — 500,000 downloads</li>
+                <li><strong>December 2021:</strong> v3.0 released with enhanced security — 800,000 downloads</li>
+                <li><strong>June 2022:</strong> 1,000,000 downloads milestone — Discord community reaches 50,000 members</li>
+                <li><strong>December 2022:</strong> v4.0 with Quantum Injection Engine — 1.5 million downloads</li>
+                <li><strong>June 2023:</strong> Script Hub reaches 15,000 scripts — Discord hits 80,000 members</li>
+                <li><strong>December 2023:</strong> 2.2 million downloads — Added multi-language support</li>
+                <li><strong>June 2024:</strong> v5.0 released — Discord hits 150,000 members</li>
+                <li><strong>December 2024:</strong> 3 million downloads — Script Hub reaches 40,000 scripts</li>
+                <li><strong>March 2026:</strong> JJSploit 2026 launched — 4.2 million+ downloads, 50,000+ scripts, 200,000+ Discord members</li>
+            </ul>
+
+            <h3>Meet Our Team</h3>
+            <ul>
+                <li><strong>Lead Developer (JJ_Dev):</strong> Founder and primary developer since 2020. Responsible for core injection engine and security systems.</li>
+                <li><strong>Security Engineer (Secure_Core):</strong> Multi-layer security systems, anti-detection algorithms, and vulnerability research.</li>
+                <li><strong>UI/UX Designer (Cyber_Design):</strong> Modern interface design, user experience research, theme development.</li>
+                <li><strong>Script Library Manager (Script_Hub):</strong> Curates 50,000+ scripts, manages ScriptGuard scanning, approves new submissions.</li>
+                <li><strong>Community Manager (Discord_Leader):</strong> Leads 200,000+ member Discord community, manages moderators, organizes events.</li>
+                <li><strong>Quality Assurance Team (5 members):</strong> Validates every release, tests compatibility across thousands of games.</li>
+                <li><strong>Support Team (12 members):</strong> Provides 24/7 support across Discord, forums, and social media.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT PAGE -->
+<div class="content-page" id="contact-page">
+    <section class="hero">
+        <div class="container">
+            <h1>Contact JJSploit Support</h1>
+            <p>24/7 support, 10-minute average response time, 200,000+ community members ready to help</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="page-nav">
+            <button onclick="showPage('home')" class="page-nav-btn">🏠 HOME</button>
+            <button onclick="showPage('download')" class="page-nav-btn">📥 DOWNLOAD</button>
+            <button onclick="showPage('scripts')" class="page-nav-btn">📜 SCRIPTS</button>
+            <button onclick="showPage('features')" class="page-nav-btn">⚡ FEATURES</button>
+            <button onclick="showPage('about')" class="page-nav-btn">ℹ️ ABOUT</button>
+            <button onclick="showPage('contact')" class="page-nav-btn active">💬 CONTACT</button>
+        </div>
+
+        <div class="page-content">
+            <h2>How to Get Help</h2>
+            <p>We pride ourselves on providing exceptional support to our users. With a dedicated team available 24 hours a day, 7 days a week, 365 days a year, we ensure that your questions and issues are addressed promptly. Our average response time is under 10 minutes on Discord, and our support system is designed to help you get back to scripting as quickly as possible.</p>
+
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-discord"></i></div>
+                    <h3>Discord Community</h3>
+                    <p><strong>Response Time:</strong> Under 10 minutes, 24/7</p>
+                    <p>Join our Discord server with over 200,000 members for instant help. Our support team is online around the clock. Dedicated channels for technical support, key issues, script help, bug reports, script submissions, and general discussions. Live voice support is available for complex problems that require real-time assistance. The community is also incredibly helpful — many experienced users volunteer their time to answer questions and help newcomers. <strong>Discord is the fastest way to get support.</strong></p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Forums</h3>
+                    <p><strong>Response Time:</strong> Typically 1-2 hours</p>
+                    <p>Our community forums are a treasure trove of information with over 100,000 topics covering every aspect of JJSploit and Roblox scripting. Search for answers to common questions, browse script tutorials, read update announcements, share your own scripts, and connect with other users. The forums are moderated by our team and experienced community members to ensure helpful, accurate information. Great for detailed questions or issues that require screenshots/code examples.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-bell"></i></div>
+                    <h3>Announcement Channels</h3>
+                    <p><strong>Stay Updated:</strong> Real-time notifications</p>
+                    <p>Follow our official announcement channels for instant notifications about new updates, script releases, security patches, and important news. We post detailed changelogs for every update, previews of upcoming features, alerts about any temporary issues or maintenance, and security advisories when needed. Never miss an important update again.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>📋 Frequently Asked Questions — Support Edition</h3>
+                <ul>
+                    <li><strong>How do I get support?</strong> Join our Discord server (fastest) or visit our community forums. Our support team is available 24/7.</li>
+                    <li><strong>What information should I include when reporting an issue?</strong> Please include your Windows version, JJSploit version, the script you were trying to use (if applicable), a detailed description of the problem, and any error messages. Screenshots or screen recordings are extremely helpful.</li>
+                    <li><strong>How long does support take?</strong> Discord support is typically under 10 minutes. Forum posts are usually answered within 1-2 hours. Our team operates across multiple time zones (North America, Europe, Asia) to ensure 24/7 coverage.</li>
+                    <li><strong>My key isn't working / I lost my key</strong> Keys are generated on-demand and expire after 24 hours. Simply visit our key portal and generate a new key — the process takes less than 30 seconds and is completely free.</li>
+                    <li><strong>JJSploit isn't working after a Roblox update</strong> Roblox updates sometimes break script compatibility. We typically release a patch within 24 hours. Check our Discord #announcements channel for real-time status updates.</li>
+                    <li><strong>How do I report a malicious or broken script?</strong> Use the "Report" button in our Script Hub or contact a moderator in Discord. Our team reviews all reports within 24 hours.</li>
+                    <li><strong>I found a security vulnerability. How do I report it responsibly?</strong> Please contact our security team through Discord (preferred — DM Secure_Core) or our secure reporting system. We take security reports seriously and respond quickly. Responsible disclosures may be eligible for our Security Hall of Fame.</li>
+                    <li><strong>Can I become a moderator or contributor?</strong> We periodically open applications for Discord moderators, script library curators, beta testers, and community helpers. Applications are announced in our Discord server — check the #announcements channel.</li>
+                </ul>
+            </div>
+
+            <h3>What to Do Before Contacting Support</h3>
+            <ul>
+                <li><strong>Check our FAQ section</strong> — Many common questions are answered above and in our Discord #faq channel</li>
+                <li><strong>Search the forums or Discord</strong> — Your issue may have already been solved by another user</li>
+                <li><strong>Update JJSploit</strong> — Make sure you're running the latest version from our website</li>
+                <li><strong>Restart both JJSploit and Roblox</strong> — Sometimes a simple restart fixes injection issues</li>
+                <li><strong>Run as Administrator</strong> — Always run JJSploit with administrator privileges</li>
+                <li><strong>Check your antivirus</strong> — Make sure JJSploit is added to your antivirus exclusions list</li>
+                <li><strong>Generate a fresh key</strong> — Keys expire after 24 hours; generate a new one if yours isn't working</li>
+                <li><strong>Try a different script</strong> — The script you're using may be outdated or broken</li>
+            </ul>
+
+            <h3>Community Guidelines</h3>
+            <p>To maintain a positive and helpful community, we ask all users to follow these simple guidelines when seeking support:</p>
+            <ul>
+                <li><strong>Be respectful</strong> — Our support team and community members are volunteers helping you for free. Treat them with respect and courtesy.</li>
+                <li><strong>Be specific</strong> — Provide detailed information about your issue. "It doesn't work" is not helpful. Tell us what you expected to happen and what actually happened.</li>
+                <li><strong>Search before asking</strong> — Your question may have already been answered. Use the search function in Discord or the forums before posting.</li>
+                <li><strong>Don't spam</strong> — Post your question once and wait for a response. Repeated posting will not get you faster help.</li>
+                <li><strong>Don't DM staff without permission</strong> — Use designated support channels for questions. DMs should only be for sensitive information (security vulnerabilities, account issues).</li>
+                <li><strong>No toxicity or harassment</strong> — Zero tolerance for harassment, hate speech, or toxic behavior. Violations result in immediate bans.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>JJSploit</h4>
+                <ul>
+                    <li><a onclick="showPage('home')">Home</a></li>
+                    <li><a onclick="showPage('download')">Download</a></li>
+                    <li><a onclick="showPage('scripts')">Scripts Hub</a></li>
+                    <li><a onclick="showPage('features')">Features</a></li>
+                    <li><a onclick="showPage('about')">About Us</a></li>
+                    <li><a onclick="showPage('contact')">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Popular Scripts</h4>
+                <ul>
+                    <li><a onclick="showScript('bloxfruits')">Blox Fruits</a></li>
+                    <li><a onclick="showScript('growgarden')">Grow a Garden</a></li>
+                    <li><a onclick="showScript('fisch')">Fisch (No Key)</a></li>
+                    <li><a onclick="showScript('rivals')">Roblox Rivals</a></li>
+                    <li><a onclick="showScript('pet')">Pet Simulator 99</a></li>
+                    <li><a onclick="showScript('doors')">Doors</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Discord Community</a></li>
+                    <li><a href="#">Community Forums</a></li>
+                    <li><a href="#">Script Documentation</a></li>
+                    <li><a href="#">Video Tutorials</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">DMCA Notice</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 JJSploit. All rights reserved. JJSploit is not affiliated with, endorsed by, or connected to Roblox Corporation.</p>
+            <p>JJSploit is for educational purposes only. Use at your own risk. 4.2+ million downloads worldwide | 99.9% safety record | 50,000+ scripts</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function showPage(pageId) {
+        document.querySelectorAll('.content-page').forEach(page => {
+            page.classList.remove('active');
+        });
+        document.getElementById(pageId + '-page').classList.add('active');
+        
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            if(link.getAttribute('data-page') === pageId) {
+                link.classList.add('active');
+            }
+        });
+        
+        // Update URL and meta for SEO
+        let pageUrls = {
+            home: '/', download: '/download-jjsploit-2026/', scripts: '/jjsploit-scripts-hub/',
+            features: '/jjsploit-features/', about: '/about-jjsploit/', contact: '/contact-jjsploit/'
+        };
+        let titles = {
+            home: 'JJSploit 2026 - Best Free Roblox Script Executor | 50,000+ Scripts',
+            download: 'Download JJSploit 2026 Latest Version | Free Roblox Executor 52MB',
+            scripts: 'JJSploit Scripts Hub 2026 - 50,000+ Working Scripts | Free Downloads',
+            features: 'JJSploit Features 2026 - Quantum Injection Engine | Level 7 Execution',
+            about: 'About JJSploit - History, Mission & Team | 4.2 Million+ Downloads',
+            contact: 'Contact JJSploit Support - 24/7 Help & Community | 200,000+ Members'
+        };
+        let descriptions = {
+            home: 'Download JJSploit 2026 - The most powerful free Roblox script executor. Level 7 execution, 50,000+ working scripts, 99.9% safety record. Completely free forever.',
+            download: 'Download JJSploit 2026 latest version with Quantum Injection v4. 52MB installer, 30ms injection speed, full Windows 10/11 support.',
+            scripts: 'Access 50,000+ working scripts for JJSploit 2026. Blox Fruits, Grow a Garden, Fisch (no key), Roblox Rivals scripts. Updated daily - completely free.',
+            features: 'Explore all JJSploit 2026 features: Quantum Injection Engine, military-grade security, 50,000+ script library, universal game compatibility.',
+            about: 'Learn about JJSploit - the most trusted free Roblox script executor with 4.2+ million downloads since 2020. Our mission, team, and history.',
+            contact: 'Get help with JJSploit through our Discord community. Support available 24/7 with average 10-minute response time. 200,000+ members ready to help.'
+        };
+        
+        window.history.pushState({page: pageId}, '', pageUrls[pageId]);
+        document.title = titles[pageId];
+        document.querySelector('meta[name="description"]').setAttribute('content', descriptions[pageId]);
+        document.querySelector('link[rel="canonical"]').setAttribute('href', 'https://jjsploit.com' + pageUrls[pageId]);
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+    
+    function showScript(scriptId) {
+        showPage('scripts');
+        document.querySelectorAll('.script-panel').forEach(panel => {
+            panel.classList.remove('active');
+        });
+        document.getElementById(scriptId + '-panel').classList.add('active');
+        
+        document.querySelectorAll('.script-tab').forEach(tab => {
+            tab.classList.remove('active');
+        });
+        document.getElementById('tab-' + scriptId).classList.add('active');
+        
+        let scriptUrls = {
+            bloxfruits: '/blox-fruits-script-jjsploit/', growgarden: '/grow-a-garden-script-jjsploit/',
+            fisch: '/fisch-script-no-key-jjsploit/', rivals: '/roblox-rivals-script-jjsploit/',
+            pet: '/pet-simulator-99-script-jjsploit/', doors: '/doors-script-jjsploit/'
+        };
+        let scriptTitles = {
+            bloxfruits: 'Blox Fruits Script for JJSploit 2026 - Auto-Farm All Three Seas',
+            growgarden: 'Grow a Garden Script for JJSploit 2026 - Auto-Water & Auto-Harvest',
+            fisch: 'Fisch Script for JJSploit 2026 - NO KEY REQUIRED | Free Fishing Script',
+            rivals: 'Roblox Rivals Script for JJSploit 2026 - Aimbot & ESP',
+            pet: 'Pet Simulator 99 Script for JJSploit 2026 - Auto-Farm & Auto-Hatch',
+            doors: 'Doors Script for JJSploit 2026 - God Mode & Auto-Win'
+        };
+        
+        window.history.pushState({page: 'scripts', script: scriptId}, '', scriptUrls[scriptId]);
+        document.title = scriptTitles[scriptId];
+    }
+    
+    function copyScript(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('✅ Script copied to clipboard!\n\nPaste it into JJSploit and click Execute.');
+        }).catch(() => {
+            alert('❌ Failed to copy. Please copy the script manually.');
+        });
+    }
+    
+    // Floating particles animation
+    for(let i = 0; i < 50; i++) {
+        let particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.width = particle.style.height = Math.random() * 4 + 2 + 'px';
+        particle.style.animationDelay = Math.random() * 15 + 's';
+        particle.style.animationDuration = Math.random() * 10 + 10 + 's';
+        particle.style.opacity = Math.random() * 0.5;
+        document.getElementById('particles').appendChild(particle);
+    }
+    
+    // Handle back/forward navigation
+    window.addEventListener('popstate', function(event) {
+        let path = window.location.pathname;
+        if(path.includes('download')) showPage('download');
+        else if(path.includes('scripts')) showPage('scripts');
+        else if(path.includes('features')) showPage('features');
+        else if(path.includes('about')) showPage('about');
+        else if(path.includes('contact')) showPage('contact');
+        else showPage('home');
+    });
+</script>
+</body>
+</html>
